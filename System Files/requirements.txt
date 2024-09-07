@@ -1,0 +1,12 @@
+-------------Asterisk-------------
+sudo apt install asterisk
+
+
+-------------Sippts attack tool-------------
+git clone https://github.com/Pepelux/sippts.git
+
+
+-------------Security model libraries-------------
+sudo apt install mysql-server
+sudo apt install python3-pymysql
+sudo pip3 install pyst2

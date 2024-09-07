@@ -1,0 +1,20 @@
+CREATE DATABASE capstone;
+USE capstone;
+
+CREATE TABLE blacklist (id INT AUTO_INCREMENT PRIMARY KEY, caller_id VARCHAR(12) NOT NULL);
+INSERT INTO blacklist (caller_id) VALUES ('100');
+
+DESCRIBE TABLES;
++--------------------+
+| Tables_in_capstone |
++--------------------+
+| blacklist          |
++--------------------+
+
+DESCRIBE blacklist;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| id        | int         | NO   | PRI | NULL    | auto_increment |
+| caller_id | varchar(12) | NO   |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
